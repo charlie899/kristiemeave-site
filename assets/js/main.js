@@ -7,7 +7,7 @@
   // 2. Confirm the email, copy the access key
   // 3. Paste it here, replacing REPLACE_WITH_YOUR_ACCESS_KEY
   // ============================================================
-  var WEB3FORMS_ACCESS_KEY = "REPLACE_WITH_YOUR_ACCESS_KEY";
+  var WEB3FORMS_ACCESS_KEY = "3afe33c2-7f49-404f-86d4-e44c62860487";
 
   var toggle = document.querySelector(".nav__toggle");
   var nav = document.querySelector(".nav");
