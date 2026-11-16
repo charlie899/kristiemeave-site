@@ -3,7 +3,7 @@
 
   // ============================================================
   // Contact form access key for Web3Forms.
-  // 1. Go to https://web3forms.com and enter kristie@kristiemeave.com
+  // 1. Go to https://web3forms.com and enter her email
   // 2. Confirm the email, copy the access key
   // 3. Paste it here, replacing REPLACE_WITH_YOUR_ACCESS_KEY
   // ============================================================
@@ -63,11 +63,11 @@
           status.textContent = "Thank you. Your message has been received. Kristie will be in touch shortly.";
           status.classList.add("is-visible");
         } else {
-          status.textContent = "Sorry, something went wrong. Please email kristie@kristiemeave.com directly.";
+          status.textContent = "Sorry, something went wrong. Please try again in a moment.";
           status.classList.add("is-visible", "is-error");
         }
       } catch (err) {
-        status.textContent = "Sorry, something went wrong. Please email kristie@kristiemeave.com directly.";
+        status.textContent = "Sorry, something went wrong. Please try again in a moment.";
         status.classList.add("is-visible", "is-error");
       } finally {
         submitBtn.disabled = false;
